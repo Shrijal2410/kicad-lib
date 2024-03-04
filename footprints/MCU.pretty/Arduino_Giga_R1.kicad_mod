@@ -1,10 +1,10 @@
-(footprint "Arduino_Giga_R1_Full"
+(footprint "Arduino_Giga_R1"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://docs.arduino.cc/hardware/giga-r1-wifi")
-	(property "Reference" "A**"
+	(property "Reference" "A"
 		(at 2.54 -54.356 0)
 		(layer "B.SilkS")
 		(uuid "1b3f3ef1-96ee-485d-9246-f884959e470f")
@@ -29,7 +29,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "MCU:Arduino_Giga_R1"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://docs.arduino.cc/hardware/giga-r1-wifi/"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -1893,15 +1893,15 @@
 		(remove_unused_layers no)
 		(uuid "5dac648f-0d25-4f26-89b9-0d934916314d")
 	)
-	(model "C:/Users/SHRIJAL/Downloads/GIGA v2.step"
+	(model "${KIPRJMOD}/3dmodels/MCU.3dshapes/Arduino_Giga_R1.STEP"
 		(offset
-			(xyz 0 0 -9)
+			(xyz 38.4 7.95 -36.82)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

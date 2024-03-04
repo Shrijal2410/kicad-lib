@@ -1,3 +1,5 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
 # Temporary files
 *.000
 *.bak
@@ -9,6 +11,7 @@
 *.sch-bak
 *~
 _autosave-*
+[#]auto_saved_files[#]
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -24,3 +27,15 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Ignore the testproject files
+gigaChad.kicad_sch
+gigaChad.kicad_pro
+gigaChad.kicad_pcb
+gigaChad.kicad_prl
+gigaChad-backups
+fp-lib-table
+sym-lib-table
+fp-info-cache
+*-cache.lib
+*-rescue.lib

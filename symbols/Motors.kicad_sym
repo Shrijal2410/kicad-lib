@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at 0 7.62 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,11 +18,12 @@
 			)
 		)
 		(property "Value" "DC_Motor"
-			(at 0 5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -35,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "https://robu.in/wp-content/uploads/2020/09/drawing-PG45775126000-99.5K.pdf"
-			(at 1.27 -13.97 0)
+			(at 1.27 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,16 +44,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4-wire bipolar stepper motor"
+		(property "Description" ""
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "ki_keywords" "bipolar stepper motor"
+		(property "ki_keywords" "DC Motor, 2 Pin"
 			(at 0 0 0)
 			(effects
 				(font
@@ -165,7 +174,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at -1.27 10.16 0)
+			(at -7.62 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,12 +183,13 @@
 			)
 		)
 		(property "Value" "Orange_BLDC_Motor"
-			(at 0 8.89 0)
+			(at 0 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -192,7 +202,7 @@
 			)
 		)
 		(property "Datasheet" "https://robu.in/wp-content/uploads/2020/09/drawing-PG42BL42246000-10.2K.pdf"
-			(at 1.27 -13.97 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,17 +210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "bipolar stepper motor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +387,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at -5.08 7.62 0)
+			(at -5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,12 +396,13 @@
 			)
 		)
 		(property "Value" "Servo_Motor"
-			(at -5.08 6.35 0)
+			(at -6.35 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -413,7 +415,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 0 -17.78 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,8 +423,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +432,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Servo Motor"
+		(property "ki_keywords" "3 Pin"
 			(at 0 0 0)
 			(effects
 				(font
@@ -705,7 +707,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 1.27 -13.97 0)
+			(at 1.27 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +716,7 @@
 			)
 		)
 		(property "Description" "4-wire bipolar stepper motor"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2,28 +2,33 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "DM542_Stepper_Driver"
+	(symbol "DM542_Stepper"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 13.97 0)
+			(at 0 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DM542_Stepper_Driver"
-			(at 0 11.43 0)
+		(property "Value" "DM542"
+			(at 0.635 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at -2.54 -3.81 0)
+			(at -1.27 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +37,7 @@
 			)
 		)
 		(property "Datasheet" "https://robu.in/wp-content/uploads/2022/01/SKU-1165428-datasheet.pdf"
-			(at -2.54 -12.7 0)
+			(at -3.175 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +46,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -0.635 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,60 +54,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "DM542_Stepper_Driver_0_1"
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -2.54 -6.35) (xy -2.54 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 6.35) (xy -2.54 6.35) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 3.81) (xy 3.81 3.81) (xy 3.81 6.35) (xy 5.08 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 1.27) (xy 3.81 -6.35) (xy 6.35 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "DM542_Stepper_Driver_1_1"
+		(symbol "DM542_Stepper_1_1"
 			(rectangle
-				(start -10.16 8.89)
-				(end 10.16 -8.89)
+				(start -7.62 8.89)
+				(end 7.62 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -111,32 +66,8 @@
 					(type background)
 				)
 			)
-			(text "Motor"
-				(at 2.54 -2.54 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Power"
-				(at 2.54 5.08 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Signal"
-				(at -2.54 0 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "PUL+"
 					(effects
@@ -154,7 +85,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 1.27 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "B-"
 					(effects
@@ -172,7 +103,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 3.81 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -190,7 +121,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 6.35 180)
+				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -208,7 +139,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "PUL-"
 					(effects
@@ -226,7 +157,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "DIR+"
 					(effects
@@ -244,7 +175,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "DIR-"
 					(effects
@@ -262,7 +193,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "ENA+"
 					(effects
@@ -280,7 +211,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -6.35 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "ENA-"
 					(effects
@@ -298,7 +229,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -6.35 180)
+				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "A+"
 					(effects
@@ -316,7 +247,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -3.81 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "A-"
 					(effects
@@ -334,7 +265,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -1.27 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "B+"
 					(effects
@@ -353,28 +284,33 @@
 			)
 		)
 	)
-	(symbol "MD10C_DC_Driver"
+	(symbol "MD10C - DC"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -1.27 11.43 0)
+			(at 0 8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MD10C_DC_Driver"
-			(at -1.27 8.89 0)
+		(property "Value" "MD10C"
+			(at 0 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 10.16 16.51 0)
+			(at 9.525 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +319,7 @@
 			)
 		)
 		(property "Datasheet" "https://robu.in/product/enhanced-13amp-dc-motor-driver-30a-peak-10-seconds/"
-			(at 1.27 -15.24 0)
+			(at 0.635 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -0.635 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,10 +336,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "MD10C_DC_Driver_1_1"
+		(symbol "MD10C - DC_1_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -6.985 6.35)
+				(end 6.985 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -413,8 +349,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 3.81 0)
-				(length 2.54)
+				(at -10.795 3.81 0)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -431,8 +367,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 1.27 0)
-				(length 2.54)
+				(at -10.795 1.27 0)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -449,8 +385,8 @@
 				)
 			)
 			(pin output line
-				(at -8.89 -1.27 0)
-				(length 2.54)
+				(at -10.795 -1.27 0)
+				(length 3.81)
 				(name "A"
 					(effects
 						(font
@@ -467,8 +403,8 @@
 				)
 			)
 			(pin output line
-				(at -8.89 -3.81 0)
-				(length 2.54)
+				(at -10.795 -3.81 0)
+				(length 3.81)
 				(name "B"
 					(effects
 						(font
@@ -485,8 +421,8 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -2.54 180)
-				(length 2.54)
+				(at 10.795 -2.54 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -503,8 +439,8 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
-				(length 2.54)
+				(at 10.795 0 180)
+				(length 3.81)
 				(name "DIR"
 					(effects
 						(font
@@ -521,8 +457,8 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
-				(length 2.54)
+				(at 10.795 2.54 180)
+				(length 3.81)
 				(name "PUL"
 					(effects
 						(font
@@ -541,22 +477,27 @@
 		)
 	)
 	(symbol "SC08A_Servo_Driver"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 16.51 0)
+			(at 0 13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SC08A_Servo_Driver"
-			(at 0 13.97 0)
+		(property "Value" "SC08A"
+			(at 0 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
@@ -600,9 +541,9 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 6.35 0)
-				(length 2.54)
-				(name "+"
+				(at -10.16 6.35 0)
+				(length 3.81)
+				(name "VM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -618,8 +559,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -1.27 180)
-				(length 2.54)
+				(at 10.16 -1.27 180)
+				(length 3.81)
 				(name "S4"
 					(effects
 						(font
@@ -636,8 +577,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 180)
-				(length 2.54)
+				(at 10.16 1.27 180)
+				(length 3.81)
 				(name "S5"
 					(effects
 						(font
@@ -654,8 +595,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 3.81 180)
-				(length 2.54)
+				(at 10.16 3.81 180)
+				(length 3.81)
 				(name "S6"
 					(effects
 						(font
@@ -672,8 +613,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 6.35 180)
-				(length 2.54)
+				(at 10.16 6.35 180)
+				(length 3.81)
 				(name "S7"
 					(effects
 						(font
@@ -690,8 +631,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 8.89 180)
-				(length 2.54)
+				(at 10.16 8.89 180)
+				(length 3.81)
 				(name "S8"
 					(effects
 						(font
@@ -708,9 +649,9 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 3.81 0)
-				(length 2.54)
-				(name "-"
+				(at -10.16 3.81 0)
+				(length 3.81)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -726,8 +667,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 1.27 0)
-				(length 2.54)
+				(at -10.16 1.27 0)
+				(length 3.81)
 				(name "RX"
 					(effects
 						(font
@@ -744,8 +685,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -1.27 0)
-				(length 2.54)
+				(at -10.16 -1.27 0)
+				(length 3.81)
 				(name "TX"
 					(effects
 						(font
@@ -762,8 +703,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -3.81 0)
-				(length 2.54)
+				(at -10.16 -3.81 0)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -780,8 +721,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -6.35 0)
-				(length 2.54)
+				(at -10.16 -6.35 0)
+				(length 3.81)
 				(name "5V"
 					(effects
 						(font
@@ -798,8 +739,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -8.89 180)
-				(length 2.54)
+				(at 10.16 -8.89 180)
+				(length 3.81)
 				(name "S1"
 					(effects
 						(font
@@ -816,8 +757,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -6.35 180)
-				(length 2.54)
+				(at 10.16 -6.35 180)
+				(length 3.81)
 				(name "S2"
 					(effects
 						(font
@@ -834,8 +775,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -3.81 180)
-				(length 2.54)
+				(at 10.16 -3.81 180)
+				(length 3.81)
 				(name "S3"
 					(effects
 						(font
@@ -853,15 +794,15 @@
 			)
 		)
 	)
-	(symbol "TB6612FNG_Motor_Driver"
+	(symbol "TB6612_DC_Driver"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -10.16 16.002 0)
+		(property "Reference" "D"
+			(at -0.635 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,17 +810,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TB6612FNG_Motor_Driver"
-			(at -10.16 -15.24 0)
+		(property "Value" "TB6612"
+			(at 0.635 -3.81 90)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +850,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROB-14450/SparkFun+Electronics/view-part/?ref=snap"
-			(at 3.81 -35.56 0)
+			(at 3.81 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +860,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Sparkfun Electronics"
-			(at 0 -33.02 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,10 +869,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TB6612FNG_Motor_Driver_0_0"
+		(symbol "TB6612_DC_Driver_0_0"
 			(rectangle
-				(start -10.16 -12.7)
-				(end 10.16 15.24)
+				(start -6.35 10.16)
+				(end 6.35 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -939,8 +882,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 10.16 180)
-				(length 5.08)
+				(at 10.16 5.08 180)
+				(length 3.81)
 				(name "VM"
 					(effects
 						(font
@@ -957,8 +900,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
-				(length 5.08)
+				(at -10.16 5.08 0)
+				(length 3.81)
 				(name "PWMB"
 					(effects
 						(font
@@ -975,8 +918,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
-				(length 5.08)
+				(at -10.16 -5.08 0)
+				(length 3.81)
 				(name "BI2"
 					(effects
 						(font
@@ -993,8 +936,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
-				(length 5.08)
+				(at -10.16 -2.54 0)
+				(length 3.81)
 				(name "BI1"
 					(effects
 						(font
@@ -1011,8 +954,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
-				(length 5.08)
+				(at -10.16 -7.62 0)
+				(length 3.81)
 				(name "STBY"
 					(effects
 						(font
@@ -1029,8 +972,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
-				(length 5.08)
+				(at -10.16 2.54 0)
+				(length 3.81)
 				(name "AI1"
 					(effects
 						(font
@@ -1047,8 +990,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
-				(length 5.08)
+				(at -10.16 0 0)
+				(length 3.81)
 				(name "AI2"
 					(effects
 						(font
@@ -1065,8 +1008,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 12.7 0)
-				(length 5.08)
+				(at -10.16 7.62 0)
+				(length 3.81)
 				(name "PWMA"
 					(effects
 						(font
@@ -1083,8 +1026,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 12.7 180)
-				(length 5.08)
+				(at 10.16 7.62 180)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -1101,8 +1044,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
+				(at 10.16 -7.62 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -1119,8 +1062,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 5.08 180)
-				(length 5.08)
+				(at 10.16 2.54 180)
+				(length 3.81)
 				(name "A01"
 					(effects
 						(font
@@ -1137,8 +1080,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 2.54 180)
-				(length 5.08)
+				(at 10.16 0 180)
+				(length 3.81)
 				(name "A02"
 					(effects
 						(font
@@ -1155,8 +1098,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -5.08 180)
-				(length 5.08)
+				(at 10.16 -5.08 180)
+				(length 3.81)
 				(name "B02"
 					(effects
 						(font
@@ -1173,8 +1116,8 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -2.54 180)
-				(length 5.08)
+				(at 10.16 -2.54 180)
+				(length 3.81)
 				(name "B01"
 					(effects
 						(font
@@ -1191,8 +1134,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
+				(at 10.16 -7.62 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -1209,8 +1152,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
+				(at 10.16 -7.62 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -1228,7 +1171,7 @@
 			)
 		)
 	)
-	(symbol "TMC2209"
+	(symbol "TMC2209_Stepper_Driver"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1246,6 +1189,7 @@
 		)
 		(property "Value" "TMC2209"
 			(at 1.27 -3.81 90)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,10 +1256,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMC2209_0_0"
+		(symbol "TMC2209_Stepper_Driver_1_0"
 			(pin power_in line
-				(at 12.7 -11.43 180)
-				(length 5.08)
+				(at 11.43 -11.43 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -1332,8 +1276,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
-				(length 5.08)
+				(at -11.43 -8.89 0)
+				(length 3.81)
 				(name "STEP"
 					(effects
 						(font
@@ -1350,8 +1294,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -3.81 0)
-				(length 5.08)
+				(at -11.43 -3.81 0)
+				(length 3.81)
 				(name "PDN"
 					(effects
 						(font
@@ -1368,8 +1312,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -6.35 0)
-				(length 5.08)
+				(at -11.43 -6.35 0)
+				(length 3.81)
 				(name "UART"
 					(effects
 						(font
@@ -1386,8 +1330,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
-				(length 5.08)
+				(at -11.43 -1.27 0)
+				(length 3.81)
 				(name "SPRD"
 					(effects
 						(font
@@ -1404,8 +1348,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
-				(length 5.08)
+				(at -11.43 1.27 0)
+				(length 3.81)
 				(name "MS2"
 					(effects
 						(font
@@ -1422,8 +1366,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
-				(length 5.08)
+				(at -11.43 3.81 0)
+				(length 3.81)
 				(name "MS1"
 					(effects
 						(font
@@ -1440,8 +1384,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
-				(length 5.08)
+				(at -11.43 6.35 0)
+				(length 3.81)
 				(name "~{EN}"
 					(effects
 						(font
@@ -1458,8 +1402,8 @@
 				)
 			)
 			(pin output line
-				(at -12.7 8.89 0)
-				(length 5.08)
+				(at -11.43 8.89 0)
+				(length 3.81)
 				(name "INDEX"
 					(effects
 						(font
@@ -1476,8 +1420,8 @@
 				)
 			)
 			(pin output line
-				(at -12.7 11.43 0)
-				(length 5.08)
+				(at -11.43 11.43 0)
+				(length 3.81)
 				(name "DIAG"
 					(effects
 						(font
@@ -1494,8 +1438,8 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -8.89 180)
-				(length 5.08)
+				(at 11.43 -8.89 180)
+				(length 3.81)
 				(name "VIO"
 					(effects
 						(font
@@ -1511,65 +1455,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 3.81 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 11.43 180)
-				(length 5.08)
-				(name "VM"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -11.43 0)
-				(length 5.08)
-				(name "DIR"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TMC2209_1_0"
 			(pin output line
-				(at 12.7 -6.35 180)
-				(length 5.08)
+				(at 11.43 -6.35 180)
+				(length 3.81)
 				(name "1B"
 					(effects
 						(font
@@ -1586,8 +1474,8 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -3.81 180)
-				(length 5.08)
+				(at 11.43 -3.81 180)
+				(length 3.81)
 				(name "1A"
 					(effects
 						(font
@@ -1604,8 +1492,8 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -1.27 180)
-				(length 5.08)
+				(at 11.43 -1.27 180)
+				(length 3.81)
 				(name "2A"
 					(effects
 						(font
@@ -1622,8 +1510,8 @@
 				)
 			)
 			(pin output line
-				(at 12.7 1.27 180)
-				(length 5.08)
+				(at 11.43 1.27 180)
+				(length 3.81)
 				(name "2B"
 					(effects
 						(font
@@ -1639,8 +1527,62 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 11.43 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 11.43 180)
+				(length 3.81)
+				(name "VM"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -11.43 0)
+				(length 3.81)
+				(name "DIR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
-		(symbol "TMC2209_1_1"
+		(symbol "TMC2209_Stepper_Driver_1_1"
 			(rectangle
 				(start -7.62 13.97)
 				(end 7.62 -13.97)

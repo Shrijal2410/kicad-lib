@@ -1,4 +1,5 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -12,7 +13,6 @@
 *.sch-bak
 *~
 _autosave-*
-[#]auto_saved_files[#]
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -38,5 +38,3 @@ gigaChad-backups
 fp-lib-table
 sym-lib-table
 fp-info-cache
-*-cache.lib
-*-rescue.lib

@@ -1,0 +1,18 @@
+# Symbols
+*   text=auto
+*.md text=auto 
+*.txt text=auto
+
+# Footprints
+*.kicad_mod text=auto
+
+# 3D Models
+*.3ds binary
+*.step binary
+*.stp binary
+*.wrl text diff=wrl 
+
+# Assets
+*.png binary
+*.svg binary
+*.pdf binary

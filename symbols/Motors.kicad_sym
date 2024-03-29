@@ -672,7 +672,7 @@
 			)
 		)
 	)
-	(symbol "Stepper_Motor_bipolar_4pin"
+	(symbol "Stepper_Motor_bipolar"
 		(pin_names
 			(offset 0)
 		)
@@ -688,7 +688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Stepper_Motor_bipolar"
+		(property "Value" "Stepper_Bipolar"
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -742,7 +742,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Stepper_Motor_bipolar_4pin_0_0"
+		(symbol "Stepper_Motor_bipolar_0_0"
 			(polyline
 				(pts
 					(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
@@ -756,7 +756,7 @@
 				)
 			)
 		)
-		(symbol "Stepper_Motor_bipolar_4pin_0_1"
+		(symbol "Stepper_Motor_bipolar_0_1"
 			(arc
 				(start -4.445 -2.54)
 				(mid -3.8127 -1.905)
@@ -913,7 +913,7 @@
 				)
 			)
 		)
-		(symbol "Stepper_Motor_bipolar_4pin_1_1"
+		(symbol "Stepper_Motor_bipolar_1_1"
 			(pin input line
 				(at 2.54 -7.62 90)
 				(length 2.54)
@@ -988,7 +988,7 @@
 			)
 		)
 	)
-	(symbol "Stepper_Motor_unipolar_6pin"
+	(symbol "Stepper_Motor_unipolar"
 		(pin_names
 			(offset 0)
 		)
@@ -1004,13 +1004,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Stepper_Motor_unipolar_6pin"
-			(at 5.08 0 0)
+		(property "Value" "Stepper_Unipolar"
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1058,7 +1058,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Stepper_Motor_unipolar_6pin_0_0"
+		(symbol "Stepper_Motor_unipolar_0_0"
 			(polyline
 				(pts
 					(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
@@ -1072,7 +1072,7 @@
 				)
 			)
 		)
-		(symbol "Stepper_Motor_unipolar_6pin_0_1"
+		(symbol "Stepper_Motor_unipolar_0_1"
 			(arc
 				(start -5.715 -3.81)
 				(mid -5.0827 -3.175)
@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(symbol "Stepper_Motor_unipolar_6pin_1_1"
+		(symbol "Stepper_Motor_unipolar_1_1"
 			(pin input line
 				(at 3.81 -8.89 90)
 				(length 2.54)

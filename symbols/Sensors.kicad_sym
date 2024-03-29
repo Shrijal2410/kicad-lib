@@ -23,7 +23,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(bold yes)
 				)
 			)
 		)
@@ -182,7 +181,7 @@
 				)
 			)
 		)
-		(symbol "AS5600_Encoder_0_1"
+		(symbol "AS5600_Encoder_1_1"
 			(rectangle
 				(start -7.62 6.35)
 				(end 7.62 -6.35)
@@ -191,7 +190,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -468,167 +467,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "HC_SR04_Distance_Sensor"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at -3.81 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "HC_SR04_Distance_Sensor"
-			(at -3.81 -8.893 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "HC-SR04:XCVR_HC-SR04"
-			(at -2.54 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -3.81 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "SparkFun Electronics"
-			(at -2.54 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=snap"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "HC_SR04_Distance_Sensor_0_0"
-			(rectangle
-				(start -3.81 6.35)
-				(end 3.81 -6.35)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "HC_SR04_Distance_Sensor_1_0"
-			(pin power_in line
-				(at -6.35 3.81 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -6.35 1.27 0)
-				(length 2.54)
-				(name "TRIG"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -6.35 -1.27 0)
-				(length 2.54)
-				(name "ECHO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -6.35 -3.81 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -1080,7 +918,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "E"
-			(at -3.81 10.795 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

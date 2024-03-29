@@ -18,12 +18,11 @@
 			)
 		)
 		(property "Value" "DM542"
-			(at 0.635 0 90)
+			(at 0 0 90)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -56,8 +55,8 @@
 		)
 		(symbol "DM542_Stepper_1_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -8.89)
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -67,8 +66,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 6.35 0)
-				(length 2.54)
+				(at -12.7 6.35 0)
+				(length 3.81)
 				(name "PUL+"
 					(effects
 						(font
@@ -85,8 +84,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
-				(length 2.54)
+				(at 12.7 1.27 180)
+				(length 3.81)
 				(name "B-"
 					(effects
 						(font
@@ -103,8 +102,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 3.81 180)
-				(length 2.54)
+				(at 12.7 3.81 180)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -121,8 +120,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 6.35 180)
-				(length 2.54)
+				(at 12.7 6.35 180)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -139,8 +138,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 3.81 0)
-				(length 2.54)
+				(at -12.7 3.81 0)
+				(length 3.81)
 				(name "PUL-"
 					(effects
 						(font
@@ -157,8 +156,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 1.27 0)
-				(length 2.54)
+				(at -12.7 1.27 0)
+				(length 3.81)
 				(name "DIR+"
 					(effects
 						(font
@@ -175,8 +174,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -1.27 0)
-				(length 2.54)
+				(at -12.7 -1.27 0)
+				(length 3.81)
 				(name "DIR-"
 					(effects
 						(font
@@ -193,8 +192,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -3.81 0)
-				(length 2.54)
+				(at -12.7 -3.81 0)
+				(length 3.81)
 				(name "ENA+"
 					(effects
 						(font
@@ -211,8 +210,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -6.35 0)
-				(length 2.54)
+				(at -12.7 -6.35 0)
+				(length 3.81)
 				(name "ENA-"
 					(effects
 						(font
@@ -229,8 +228,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -6.35 180)
-				(length 2.54)
+				(at 12.7 -6.35 180)
+				(length 3.81)
 				(name "A+"
 					(effects
 						(font
@@ -247,8 +246,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -3.81 180)
-				(length 2.54)
+				(at 12.7 -3.81 180)
+				(length 3.81)
 				(name "A-"
 					(effects
 						(font
@@ -265,8 +264,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -1.27 180)
-				(length 2.54)
+				(at 12.7 -1.27 180)
+				(length 3.81)
 				(name "B+"
 					(effects
 						(font
@@ -304,8 +303,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -497,7 +495,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(bold yes)
 				)
 			)
 		)
@@ -811,14 +808,12 @@
 			)
 		)
 		(property "Value" "TB6612"
-			(at 0.635 -3.81 90)
+			(at 0 0 90)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -1188,17 +1183,15 @@
 			)
 		)
 		(property "Value" "TMC2209"
-			(at 1.27 -3.81 90)
+			(at 0 0 90)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "Motor_Driver:MKS_TMC2209"
 			(at 3.81 -39.37 0)
 			(effects
 				(font
@@ -1226,28 +1219,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.20"
-			(at 3.81 -36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=snap"
+		(property "SnapEDA" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=snap"
 			(at 3.81 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Trinamic Motion Control GmbH"
-			(at 3.81 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

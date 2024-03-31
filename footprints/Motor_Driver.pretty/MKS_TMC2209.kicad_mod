@@ -355,4 +355,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "418cd125-c03e-4325-97fb-976c11993d44")
 	)
+	(model "${KIPRJMOD}/3dmodels/Motor_Driver.3dshapes/BTT_TMC2209.step"
+		(offset
+			(xyz 0.4 -5.25 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

@@ -1,0 +1,157 @@
+(footprint "Fuse_Tyco_RUEF900"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 9.0A, Itrip=18.0A")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "REF**"
+		(at 6.35 0 0)
+		(layer "F.SilkS")
+		(uuid "56d7832c-0320-4598-aa40-ddabae39a33f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Tyco_RUEF900"
+		(at 5.1 3.556 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3218ea8f-db33-4813-962d-cc25eae0682d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ba63e8a-dd75-4645-a724-90a03febb817")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.electronicscomp.com/datasheet/fuse/ruef-series-pptc-fuse-datasheet.pdf"
+		(at 0 6.096 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "164a9a6b-f016-4e7e-a1ec-45790aa98def")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8368539-b8d7-405c-ada3-f85f4cbe5189")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.731 -2.032)
+		(end 17.653 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0dbc2bf9-adb1-4672-89b3-104e03537434")
+	)
+	(fp_rect
+		(start -6.858 -2.159)
+		(end 17.78 2.032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "50ff1ec5-716a-4061-a645-70aca4f7e881")
+	)
+	(fp_line
+		(start -6.604 -1.905)
+		(end -6.604 1.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad5fefc9-fbdf-4ddf-ab5e-1024b89cd353")
+	)
+	(fp_line
+		(start -6.604 1.765)
+		(end 17.526 1.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "120fe46a-fc41-4b0d-9bed-f2481cff5b88")
+	)
+	(fp_line
+		(start 17.526 -1.905)
+		(end -6.604 -1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae1615f0-461c-4cc0-870b-043becef625e")
+	)
+	(fp_line
+		(start 17.526 1.765)
+		(end 17.526 -1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a343e332-8dd9-4357-9be3-133237daa3c4")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4940f929-dfcc-4070-a563-0c20e19bdbfa")
+	)
+	(pad "2" thru_hole circle
+		(at 10.922 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b70ca7bd-cf37-42f6-b41b-78ac286dfe55")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RHT1300.wrl"
+		(offset
+			(xyz 0 0.635 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

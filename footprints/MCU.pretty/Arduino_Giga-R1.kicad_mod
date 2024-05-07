@@ -1837,7 +1837,7 @@
 		(remove_unused_layers no)
 		(uuid "2e5c46a2-5d6c-4ae6-972a-278af0a89cd3")
 	)
-	(pad "SP_GN" thru_hole rect
+	(pad "SP_GD" thru_hole rect
 		(at 66.167 -25.4)
 		(size 1.7272 1.7272)
 		(drill 1.016)

@@ -65,6 +65,29 @@ The KLC are a set of guidelines, rather than rules. Electronic component librari
     └─── 📂 OE-28_Encoder        # 2-Ch Hall effect, 3-7 PPR, 4.5-24V, 20mA max
 
 ```
+## Using Library
+
+**Symbol Libraries:**
+
+| Name            | Location                                          |
+|-----------------|---------------------------------------------------|
+| MCU             | ${KIPRJMOD}/symbols/MCU.kicad_sym                 |
+| Sensors         | ${KIPRJMOD}/symbols/Sensors.kicad_sym             |
+| Motor_Driver    | ${KIPRJMOD}/symbols/Motor_Driver.kicad_sym        |
+| Motors          | ${KIPRJMOD}/symbols/Motors.kicad_sym              |
+| Connectors      | ${KIPRJMOD}/symbols/Connectors.kicad_sym          |
+| Comms           | ${KIPRJMOD}/symbols/Comms.kicad_sym               |
+
+**Footprint Libraries:**
+
+| Name             | Location                                           |
+|------------------|----------------------------------------------------|
+| MCU              | ${KIPRJMOD}/footprints/MCU.pretty                  |
+| Connectors       | ${KIPRJMOD}/footprints/Connectors.pretty           |
+| Motor_Driver     | ${KIPRJMOD}/footprints/Motor_Driver.pretty         |
+| Comms            | ${KIPRJMOD}/footprints/Comms.pretty                |
+| Fuses_THT        | ${KIPRJMOD}/footprints/Fuses_THT.pretty            |
+| Capacitors_THT   | ${KIPRJMOD}/footprints/Capacitors_THT.pretty       |
 
 ## License
 

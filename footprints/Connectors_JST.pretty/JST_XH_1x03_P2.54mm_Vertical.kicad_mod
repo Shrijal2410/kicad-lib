@@ -249,15 +249,15 @@
 		(remove_unused_layers no)
 		(uuid "7072b420-9990-4d8f-a6b8-3c72e84d3433")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3dmodels/Connectors_JST.3dshapes/JST_XH_1x03_P2.54mm_Vertical.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -2.54 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )

@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "AMASS_XT60PW-M"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -318,5 +318,16 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "774baa3b-0fcd-4a6d-bc48-5db6df8588e7")
+	)
+	(model "${KIPRJMOD}/3dmodels/Connectors_XT.3dshapes/XT60PW-M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

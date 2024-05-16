@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -135,7 +135,7 @@
 		(remove_unused_layers no)
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
 	)
-	(model "${KIPRJMOD}/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
+	(model "${KIPRJMOD}/library/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
 		(offset
 			(xyz 1.75 0 0.2)
 		)

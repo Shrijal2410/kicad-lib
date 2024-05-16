@@ -30,7 +30,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Footprint" "MCU:Arduino_Giga-R1"
+	(property "Footprint" "Arduino_Giga-R1"
 		(at 53.34 5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -1869,7 +1869,7 @@
 		(remove_unused_layers no)
 		(uuid "2e38fdd5-4706-465d-b23f-d63621ebb853")
 	)
-	(model "${KIPRJMOD}/3dmodels/MCU.3dshapes/Arduino_Giga-R1.step"
+	(model "${KIPRJMOD}/library/3dmodels/MCU.3dshapes/Arduino_Giga-R1.step"
 		(offset
 			(xyz 38.4 7.95 -36.82)
 		)

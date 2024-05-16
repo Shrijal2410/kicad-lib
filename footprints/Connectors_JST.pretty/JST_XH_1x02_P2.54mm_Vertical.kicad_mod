@@ -241,7 +241,7 @@
 		(remove_unused_layers no)
 		(uuid "09ceeb43-9fac-40b4-a3bb-4f36cdd20ed2")
 	)
-	(model "${KIPRJMOD}/3dmodels/Connectors_JST.3dshapes/JST_XH_1x02_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/library/3dmodels/Connectors_JST.3dshapes/JST_XH_1x02_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 -1.27 0)
 		)

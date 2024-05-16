@@ -89,6 +89,8 @@ The KLC are a set of guidelines, rather than rules. Electronic component librari
 | Fuses_THT        | ${KIPRJMOD}/footprints/Fuses_THT.pretty            |
 | Capacitors_THT   | ${KIPRJMOD}/footprints/Capacitors_THT.pretty       |
 
+JST 3D Models: https://grabcad.com/library/jst-xh-2-54mm-generic-connector-set-1
+
 ## License
 
 This repository is licensed under [insert license here]. Please see the [LICENSE](license) for more details.

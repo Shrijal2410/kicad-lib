@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Fuse_Tyco-RUEF900"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -221,7 +221,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ec4f4ddc-6158-4c28-9354-175a8d074862")
 	)
-	(model "${KIPRJMOD}/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
+	(model "${KIPRJMOD}/library/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
 		(offset
 			(xyz 0 0 0)
 		)

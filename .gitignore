@@ -27,7 +27,7 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+# *.csv
 
 # Ignore the testproject files
 gigaChad.kicad_sch

@@ -1,0 +1,15 @@
+pin_number,pin_name,pin_type
+1,A,input
+2,A*,output
+3,B,input
+4,B*,output
+5,C,input
+6,C*,output
+7,GND,power_out
+8,D*,output
+9,D,input
+10,*E,output
+11,E,input
+12,*F,output
+13,F,input
+14,VDD,power_in

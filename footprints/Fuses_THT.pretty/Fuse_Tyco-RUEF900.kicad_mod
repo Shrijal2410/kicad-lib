@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Fuse_Tyco_RUEF900"
-		(at 4.21 3.66 0)
+		(at 0 3.66 0)
 		(layer "F.Fab")
 		(uuid "31afe1fc-a530-4765-873c-6e8c3ffeb7f9")
 		(effects
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Fuse_Tyco-RUEF900"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,170 +60,112 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -12.05 -1.5)
-		(end -6.155 -1.5)
+		(start -12.065 -2.032)
+		(end -12.065 2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "03b6cb3e-d3c9-48ee-8902-f067ac0fb3cb")
+		(uuid "5311a671-9759-492f-8de5-edda8b7d7a57")
 	)
 	(fp_line
-		(start -12.05 1.5)
-		(end -12.05 -1.5)
+		(start -12.065 2.032)
+		(end 4.699 2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a4f7cef0-5dff-4c93-8d42-418cda59f818")
+		(uuid "00901d51-0742-409a-85d9-26f1c076c500")
 	)
 	(fp_line
-		(start -3.995 -1.5)
-		(end 12.05 -1.5)
+		(start -5.461 -2.032)
+		(end -12.065 -2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8987db96-5253-4f79-b306-6def5ae6eb70")
+		(uuid "1ac97455-54c8-432e-801f-2f855dba202b")
 	)
 	(fp_line
-		(start 3.995 1.5)
-		(end -12.05 1.5)
+		(start 5.461 2.032)
+		(end 12.065 2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6ab53c72-6f77-4164-a9a9-ef4cead066d1")
+		(uuid "6afae153-3943-4ebf-9590-4a63949f73ea")
 	)
 	(fp_line
-		(start 12.05 -1.5)
-		(end 12.05 1.5)
+		(start 12.065 -2.032)
+		(end -4.699 -2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2347045d-8861-4af3-b2ea-7ddc76a71ec3")
+		(uuid "ebc99e01-332f-49cb-8715-ecbc6656b029")
 	)
 	(fp_line
-		(start 12.05 1.5)
-		(end 6.155 1.5)
+		(start 12.065 2.032)
+		(end 12.065 -2.032)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5b8c5881-14ae-41aa-ab36-b258bdf01253")
+		(uuid "e2a3f49a-fb3c-4a34-aa74-5389939c6a66")
 	)
-	(fp_line
-		(start -12.3 -2.025)
-		(end -12.3 2.025)
+	(fp_rect
+		(start -12.192 -2.159)
+		(end 12.192 2.159)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "ee651f80-1b2d-4b17-8e85-ebbb239a682c")
+		(uuid "69d1cd29-a74b-4b62-8f1f-a7d09829dcfb")
 	)
-	(fp_line
-		(start -12.3 2.025)
-		(end 12.3 2.025)
+	(fp_rect
+		(start -11.938 -1.905)
+		(end 11.938 1.905)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "3d29cb3a-1837-4cf4-8de6-c267f2f443be")
-	)
-	(fp_line
-		(start 12.3 -2.025)
-		(end -12.3 -2.025)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "eb5d9ffb-382a-4c6b-b40e-086a2e44630a")
-	)
-	(fp_line
-		(start 12.3 2.025)
-		(end 12.3 -2.025)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2b23502b-fa02-4981-816a-804b8bed7902")
-	)
-	(fp_line
-		(start -12.05 -1.5)
-		(end 12.05 -1.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
+		(fill none)
 		(layer "F.Fab")
-		(uuid "06948372-226f-4829-9553-d65b97144959")
+		(uuid "9fb5e1bc-86c7-4876-9387-babd68a81455")
 	)
-	(fp_line
-		(start -12.05 1.5)
-		(end -12.05 -1.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d634d637-ba69-4258-80ad-ef313b4710f1")
-	)
-	(fp_line
-		(start 12.05 -1.5)
-		(end 12.05 1.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ca4664cf-4cd3-4cd4-8e56-cf2dea389354")
-	)
-	(fp_line
-		(start 12.05 1.5)
-		(end -12.05 1.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0f819e61-c9ba-4646-a0cc-783db387d513")
-	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at -5.075 -1.015)
-		(size 1.52 1.52)
-		(drill 1.01)
+		(size 1.8 1.8)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.06578947368)
 		(solder_mask_margin 0.102)
 		(uuid "0c76da07-c2fd-4b7b-b2c3-3152f3576567")
 	)
 	(pad "2" thru_hole circle
 		(at 5.075 1.015)
-		(size 1.52 1.52)
-		(drill 1.01)
+		(size 1.8 1.8)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "ec4f4ddc-6158-4c28-9354-175a8d074862")
 	)
-	(model "${KIPRJMOD}/library/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
+	(model "${KICAD_LIB}/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
 		(offset
 			(xyz 0 0 0)
 		)

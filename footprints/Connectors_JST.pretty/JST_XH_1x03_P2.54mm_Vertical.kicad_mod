@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "JST_XH_1x03_P2.54mm_Vertical"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -249,7 +252,7 @@
 		(remove_unused_layers no)
 		(uuid "7072b420-9990-4d8f-a6b8-3c72e84d3433")
 	)
-	(model "${KIPRJMOD}/library/3dmodels/Connectors_JST.3dshapes/JST_XH_1x03_P2.54mm_Vertical.step"
+	(model "${KICAD_LIB}/3dmodels/Connectors_JST.3dshapes/JST_XH_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 -2.54 0)
 		)

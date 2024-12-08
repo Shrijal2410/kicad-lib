@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal"
-		(at 1.75 5.25 0)
+		(at 1.75 3.175 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "46f3fdce-2486-4415-91d2-94e33bdeb753")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -135,7 +138,7 @@
 		(remove_unused_layers no)
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
 	)
-	(model "${KIPRJMOD}/library/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
+	(model "${KICAD_LIB}/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
 		(offset
 			(xyz 1.75 0 0.2)
 		)

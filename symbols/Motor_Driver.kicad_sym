@@ -2,14 +2,14 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "DM542_Stepper"
+	(symbol "DM542"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property "Reference" "M"
 			(at 0 10.795 0)
 			(effects
 				(font
@@ -53,7 +53,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DM542_Stepper_1_1"
+		(symbol "DM542_1_1"
 			(rectangle
 				(start -8.89 8.89)
 				(end 8.89 -8.89)
@@ -283,14 +283,14 @@
 			)
 		)
 	)
-	(symbol "MD10C - DC"
+	(symbol "MD10C"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property "Reference" "M"
 			(at 0 8.255 0)
 			(effects
 				(font
@@ -334,7 +334,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MD10C - DC_1_1"
+		(symbol "MD10C_1_1"
 			(rectangle
 				(start -6.985 6.35)
 				(end 6.985 -6.35)
@@ -474,14 +474,14 @@
 			)
 		)
 	)
-	(symbol "SC08A_Servo_Driver"
+	(symbol "SC08A"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property "Reference" "M"
 			(at 0 13.335 0)
 			(effects
 				(font
@@ -525,7 +525,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SC08A_Servo_Driver_1_1"
+		(symbol "SC08A_1_1"
 			(rectangle
 				(start -6.35 11.43)
 				(end 6.35 -11.43)
@@ -791,14 +791,14 @@
 			)
 		)
 	)
-	(symbol "TB6612_DC_Driver"
+	(symbol "TB6612"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property "Reference" "M"
 			(at -0.635 11.43 0)
 			(effects
 				(font
@@ -864,7 +864,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TB6612_DC_Driver_0_0"
+		(symbol "TB6612_0_0"
 			(rectangle
 				(start -6.35 10.16)
 				(end 6.35 -10.16)
@@ -1166,32 +1166,32 @@
 			)
 		)
 	)
-	(symbol "TMC2209_Stepper_Driver"
+	(symbol "TMC22XX"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
-			(at -0.635 16.51 0)
+		(property "Reference" "M"
+			(at 0 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Value" "TMC2209"
-			(at 0 0 90)
+		(property "Value" "TMC22XX"
+			(at 0 1.27 90)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Motor_Driver:MKS_TMC2209"
+		(property "Footprint" "Motor_Driver:MKS_TMC2226"
 			(at 3.81 -39.37 0)
 			(effects
 				(font
@@ -1229,7 +1229,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMC2209_Stepper_Driver_1_0"
+		(symbol "TMC22XX_1_0"
 			(pin power_in line
 				(at 11.43 -11.43 180)
 				(length 3.81)
@@ -1266,10 +1266,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -11.43 -3.81 0)
+			(pin input line
+				(at -11.43 -2.54 0)
 				(length 3.81)
-				(name "PDN"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1284,10 +1284,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -11.43 -6.35 0)
+			(pin input line
+				(at -11.43 0 0)
 				(length 3.81)
-				(name "UART"
+				(name "STBY"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1302,10 +1302,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 -1.27 0)
+			(pin bidirectional line
+				(at -11.43 2.54 0)
 				(length 3.81)
-				(name "SPRD"
+				(name "UART"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1321,7 +1321,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 1.27 0)
+				(at -11.43 5.08 0)
 				(length 3.81)
 				(name "MS2"
 					(effects
@@ -1339,7 +1339,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 3.81 0)
+				(at -11.43 7.62 0)
 				(length 3.81)
 				(name "MS1"
 					(effects
@@ -1357,9 +1357,9 @@
 				)
 			)
 			(pin input line
-				(at -11.43 6.35 0)
+				(at -11.43 -6.35 0)
 				(length 3.81)
-				(name "~{EN}"
+				(name "EN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1375,7 +1375,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 8.89 0)
+				(at -11.43 11.43 0)
 				(length 3.81)
 				(name "INDEX"
 					(effects
@@ -1393,7 +1393,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 11.43 0)
+				(at -11.43 13.97 0)
 				(length 3.81)
 				(name "DIAG"
 					(effects
@@ -1429,9 +1429,9 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -6.35 180)
+				(at 11.43 -3.81 180)
 				(length 3.81)
-				(name "1B"
+				(name "B2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1447,9 +1447,9 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -3.81 180)
+				(at 11.43 -1.27 180)
 				(length 3.81)
-				(name "1A"
+				(name "B1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1465,9 +1465,9 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -1.27 180)
+				(at 11.43 1.27 180)
 				(length 3.81)
-				(name "2A"
+				(name "A1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1483,9 +1483,9 @@
 				)
 			)
 			(pin output line
-				(at 11.43 1.27 180)
+				(at 11.43 3.81 180)
 				(length 3.81)
-				(name "2B"
+				(name "A2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1501,7 +1501,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 3.81 180)
+				(at 11.43 6.35 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1519,7 +1519,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 11.43 180)
+				(at 11.43 13.97 180)
 				(length 3.81)
 				(name "VM"
 					(effects
@@ -1555,9 +1555,9 @@
 				)
 			)
 		)
-		(symbol "TMC2209_Stepper_Driver_1_1"
+		(symbol "TMC22XX_1_1"
 			(rectangle
-				(start -7.62 13.97)
+				(start -7.62 16.51)
 				(end 7.62 -13.97)
 				(stroke
 					(width 0)

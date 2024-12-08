@@ -28,12 +28,13 @@ def read_csv(file_path):
     pin_data = []
     with open(file_path, 'r') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip header
+        next(reader)
         for row in reader:
             pin_data.append(row)
     return pin_data
 
-csv_file_path = 'kicad-auto\pins.csv'
+# Example usage (change paths to match your setup)
+csv_file_path = 'kicad-auto\example_pins.csv'
 output_file_path = 'kicad-auto\output.txt'
 
 pin_data = read_csv(csv_file_path)

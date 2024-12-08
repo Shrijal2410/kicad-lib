@@ -1,9 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MCU")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCU.kicad_sym")(options "")(descr ""))
-  (lib (name "Comms")(type "KiCad")(uri "${KIPRJMOD}/symbols/Comms.kicad_sym")(options "")(descr ""))
-  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/symbols/Connectors.kicad_sym")(options "")(descr ""))
-  (lib (name "Motor_Driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/Motor_Driver.kicad_sym")(options "")(descr ""))
-  (lib (name "Motors")(type "KiCad")(uri "${KIPRJMOD}/symbols/Motors.kicad_sym")(options "")(descr ""))
-  (lib (name "Sensors")(type "KiCad")(uri "${KIPRJMOD}/symbols/Sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU")(type "KiCad")(uri "${KICAD_USER_LIB}/symbols/MCU.kicad_sym")(options "")(descr ""))
+  (lib (name "Motor_Driver")(type "KiCad")(uri "${KICAD_USER_LIB}/symbols/Motor_Driver.kicad_sym")(options "")(descr ""))
+  (lib (name "Radio_Module")(type "KiCad")(uri "${KICAD_USER_LIB}/symbols/Radio_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensors")(type "KiCad")(uri "${KICAD_USER_LIB}/symbols/Sensors.kicad_sym")(options "")(descr ""))
 )

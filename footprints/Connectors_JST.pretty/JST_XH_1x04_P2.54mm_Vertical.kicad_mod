@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.33 0)
+		(at 0 -3.175 0)
 		(layer "F.SilkS")
 		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
 		(effects
@@ -17,8 +17,9 @@
 		)
 	)
 	(property "Value" "JST_XH_1x04_P2.54mm_Vertical"
-		(at 0 9.95 0)
+		(at 0 12.7 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
 		(effects
 			(font
@@ -218,7 +219,7 @@
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.81 90)
+		(at 0 10.795 180)
 		(layer "F.Fab")
 		(uuid "6a275956-06fa-47ad-92b1-820393d36d11")
 		(effects
@@ -260,7 +261,7 @@
 		(remove_unused_layers no)
 		(uuid "7773fc0b-045f-44e0-9512-f82000fc06b7")
 	)
-	(model "${KICAD_LIB}/3dmodels/Connectors_JST.3dshapes/JST_XH_1x04_P2.54mm_Vertical.step"
+	(model "${KICAD_USER_LIB}/3dmodels/Connectors_JST.3dshapes/JST_XH_1x04_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 -3.81 0)
 		)

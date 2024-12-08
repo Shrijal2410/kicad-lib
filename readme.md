@@ -1,98 +1,55 @@
 # KiCad Assets
 
-Collection of custom KiCad assets to expand your design capabilities. Includes symbols, footprints, and 3D models ready for your projects.
+A curated collection of custom **KiCad assets** to enhance your PCB design experience. Includes symbols, footprints, and 3D models, all ready to integrate into your projects.
+
 
 ## KiCad Library Convention (KLC)
 
-This project follows the KiCad Library Conventions (KLC) to ensure consistency and facilitate contributions. Users wishing to submit or update library files should be familiar with these guidelines.
+This repository adheres to the **KiCad Library Conventions (KLC)** to ensure quality, consistency, and ease of contribution. Understanding KLC will help you submit or update library files effectively. 
 
-The KLC are a set of guidelines, rather than rules. Electronic component libraries are diverse and complex, and exceptions can be made at the discretion of the library team.
+- **Overview**: [KiCad Library Conventions (KLC)](https://klc.kicad.org/)
+- **Helper Tools**: [KiCad Library Utils - GitLab](https://gitlab.com/kicad/libraries/kicad-library-utils)
 
-* Overview: [KLC - Library Conventions](https://klc.kicad.org/)
-* KLC Helper Scripts: [KiCad Library Utils - GitLab](https://gitlab.com/kicad/libraries/kicad-library-utils)
+While KLC provides guidelines, exceptions are allowed at the discretion of the library maintainers.
+
 
 ## Project Structure
 
 ```bash
-📁 kicad
-├── 🗃️ 3dmodels
-│   └── 🗂️ *.3dshapes
+📁 kicad/
+├── 📦 3dmodels/          # 3D models in .step format
+│   └── 🗂️ *.3dshapes/
 │       └── 📂 *.step
 │
-├── 🗃️ symbols
-│   └── 🗂️ *.kicad_sym
+├── 📦 symbols/           # Component symbols
+│   └── 📂 *.kicad_sym
 │
-└── 🗃️ footprints
-    └── 🗂️ *.pretty
-        └── 📂 *.kicad_mod
+├── 📦 footprints/        # Footprints for PCB layouts
+│   └── 🗂️ *.pretty/
+│       └── 📂 *.kicad_mod
+│
+└── 🛠️ scripts/           # Utility scripts for automation
+    ├── 📂 *.py
+    └── 📂 *.csv
 ```
 
-## Asset Database
+## 🚀 Getting Started
 
-```bash
-📁 kicad
-├─── 🗂️ Comms
-│   ├─── 📂 LoRA_E5-mini       # Freq: 868/915MHz, 	3.7-5V (logic)
-│   └─── 📂 TCA9548A           # 1-to-8 I2C mux, up to 400kHz
-│
-├─── 🗂️ Connectors
-│   ├─── 📂 XT30PW-M           # 60V, 30A (cont.)
-│   └─── 📂 XT60PW-M           # 60V, 60A (cont.)
-│
-├─── 🗂️ MCU
-│   ├─── 📂 Arduino_Giga-R1    # STM32 dual-core, Digital: 75, PWM: 12, Analog: 12
-│   └─── 📂 Raspberry_Pi-5     # BCM2712 quad-core, 8GB RAM, GPIO: 40
-│
-├─── 🗂️ Motors
-│   ├─── 📂 DC_Motor
-│   ├─── 📂 Orange_BLDC_Motor
-│   ├─── 📂 Servo_Motor
-│   ├─── 📂 Stepper_bipolar
-│   └─── 📂 Stepper_unipolar
-│
-├─── 🗂️ Motor_Driver
-│   ├─── 📂 DM542_Stepper      # Bipolar, 20-50V, 1-4.2A, 400-25600 Pulse/rev
-│   ├─── 📂 SmartElex_15S_DC   # 6-30V, 15A (cont.), 30A (peak), PWM: 32kHz, 3.3/5V (logic)
-│   ├─── 📂 SC08A_Servo        # 8-Ch, 4.8-9V, 8000 steps, UART 9600, Pulse 0.5-2.5ms
-│   ├─── 📂 TB6612_DC          # 4.5-15V, 1.2A/Ch (3.2A peak), 2.7-5.5V (logic), PWM 100kHz
-│   └─── 📂 TMC2209_Stepper    # Up to 256 microsteps, 4.75-29V, 2.8A peak, UART/SPI
-│
-└─── 🗂️ Sensors
-    ├─── 📂 AS5600_Encoder       # 12-bit magnetic, I2C, analog/PWM out, 3.3/5V (logic)
-    ├─── 📂 BMX160_IMU           # 16-bit, 3.3/5V, Acc: ±2-16g, Gyro: ±125-2000°/s, Mag: ±1150/2500uT(z)
-    ├─── 📂 INA260_Power_Monitor # 0-36V, 15A±1.5mA cont., 16-bit I2C out, 2.7-5.5V (logic)
-    ├─── 📂 Maker_Line_Sensor_05 # 5-Ch IR, 3.3/5V, 200Hz, Width:13-30mm, Height: 4-40mm
-    └─── 📂 OE-28_Encoder        # 2-Ch Hall effect, 3-7 PPR, 4.5-24V, 20mA max
+1. Add User Library Path  
+   Under `Preferences → Configure Paths`, add the following:  
+   - Name: `KICAD_USER_LIB`  
+   - Path: `<path-to-repo>\kicad-lib`
 
-```
-## Using Library
+2. Set Up Symbol and Footprint Libraries  
+   - Place the `sym-lib-table` and `fp-lib-table` files in your project directory.  
+   - These files link your project to the custom library assets.
 
-**Symbol Libraries:**
-
-| Name            | Location                                          |
-|-----------------|---------------------------------------------------|
-| MCU             | ${KIPRJMOD}/symbols/MCU.kicad_sym                 |
-| Sensors         | ${KIPRJMOD}/symbols/Sensors.kicad_sym             |
-| Motor_Driver    | ${KIPRJMOD}/symbols/Motor_Driver.kicad_sym        |
-| Motors          | ${KIPRJMOD}/symbols/Motors.kicad_sym              |
-| Connectors      | ${KIPRJMOD}/symbols/Connectors.kicad_sym          |
-| Comms           | ${KIPRJMOD}/symbols/Comms.kicad_sym               |
-
-**Footprint Libraries:**
-
-| Name             | Location                                           |
-|------------------|----------------------------------------------------|
-| MCU              | ${KIPRJMOD}/footprints/MCU.pretty                  |
-| Connectors       | ${KIPRJMOD}/footprints/Connectors.pretty           |
-| Motor_Driver     | ${KIPRJMOD}/footprints/Motor_Driver.pretty         |
-| Comms            | ${KIPRJMOD}/footprints/Comms.pretty                |
-| Fuses_THT        | ${KIPRJMOD}/footprints/Fuses_THT.pretty            |
-| Capacitors_THT   | ${KIPRJMOD}/footprints/Capacitors_THT.pretty       |
-
-JST 3D Models: https://grabcad.com/library/jst-xh-2-54mm-generic-connector-set-1
 
 ## License
 
-This repository is licensed under [insert license here]. Please see the [LICENSE](license) for more details.
+This repository is licensed under [Insert License Name Here]. Refer to the [LICENSE](license) file for more details.
 
-For any questions or suggestions, feel free to open an issue or contact us directly. Happy designing! ✨
+## 💡 Contributing
+
+We welcome contributions! Follow the KLC guidelines and open an issue or pull request for any updates or suggestions.  
+For any questions or suggestions, feel free to open an issue or contact me directly. Happy designing! ✨

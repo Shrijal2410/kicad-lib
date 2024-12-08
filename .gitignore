@@ -30,11 +30,11 @@ fp-info-cache
 # *.csv
 
 # Ignore the testproject files
-gigaChad.kicad_sch
-gigaChad.kicad_pro
-gigaChad.kicad_pcb
-gigaChad.kicad_prl
-gigaChad-backups
+test.kicad_sch
+test.kicad_pro
+test.kicad_pcb
+test.kicad_prl
+test-backups
 
 # Adding Library Table for easier import
 # fp-lib-table

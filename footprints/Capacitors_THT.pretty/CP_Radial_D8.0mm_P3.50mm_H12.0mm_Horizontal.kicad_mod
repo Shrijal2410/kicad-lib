@@ -6,7 +6,7 @@
 	(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 	(tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm height 12mm Electrolytic Capacitor")
 	(property "Reference" "REF**"
-		(at 2.54 -1.905 0)
+		(at 1.75 -1.905 0)
 		(layer "F.SilkS")
 		(uuid "dfe7c6f4-3d35-4c8d-92d0-7da79e80ded9")
 		(effects
@@ -68,29 +68,9 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -0.546 -2.032)
-		(end 0.254 -2.032)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b14faded-ebee-4ef4-8f83-876f8677fcd2")
-	)
-	(fp_line
-		(start -0.146 -2.432)
-		(end -0.146 -1.632)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4b9cbc51-7b5a-4691-b115-0e3235035551")
-	)
 	(fp_rect
-		(start -1.27 -1.143)
-		(end 4.7244 1.27)
+		(start -2.5 -14.478)
+		(end 6 1.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -100,8 +80,8 @@
 		(uuid "a517afdd-8f82-4667-b4f6-9f8056dc9c30")
 	)
 	(fp_rect
-		(start -2.667 -15.367)
-		(end 6.223 1.905)
+		(start -2.75 -14.75)
+		(end 6.25 2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -109,17 +89,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "242d8505-2856-47b7-a39a-fa60419140a6")
-	)
-	(fp_rect
-		(start -2.54 -15.24)
-		(end 6.096 1.778)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "8a4dc811-5951-469a-a039-350079c757d5")
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
@@ -138,7 +107,7 @@
 		(remove_unused_layers no)
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
 	)
-	(model "${KICAD_LIB}/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
+	(model "${KICAD_USER_LIB}/3dmodels/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm_H12.0mm_Horizontal.step"
 		(offset
 			(xyz 1.75 0 0.2)
 		)

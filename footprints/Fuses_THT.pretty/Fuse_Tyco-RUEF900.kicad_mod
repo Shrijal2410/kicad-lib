@@ -165,7 +165,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ec4f4ddc-6158-4c28-9354-175a8d074862")
 	)
-	(model "${KICAD_LIB}/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
+	(model "${KICAD_USER_LIB}/3dmodels/Fuses_THT.3dshapes/RUEF900.step"
 		(offset
 			(xyz 0 0 0)
 		)

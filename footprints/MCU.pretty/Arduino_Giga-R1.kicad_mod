@@ -19,7 +19,7 @@
 	)
 	(property "Value" "Arduino_Giga_R1_Full"
 		(at 53.34 10.16 0)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "12769213-0afd-42cd-8352-af3e67633868")
 		(effects
@@ -27,7 +27,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Footprint" "Arduino_Giga-R1"
@@ -39,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -51,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -63,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1869,7 +1871,7 @@
 		(remove_unused_layers no)
 		(uuid "2e38fdd5-4706-465d-b23f-d63621ebb853")
 	)
-	(model "${KIPRJMOD}/library/3dmodels/MCU.3dshapes/Arduino_Giga-R1.step"
+	(model "${KICAD_USER_LIB}/3dmodels/MCU.3dshapes/Arduino_Giga-R1.step"
 		(offset
 			(xyz 38.4 7.95 -36.82)
 		)

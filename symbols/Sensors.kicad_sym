@@ -2,213 +2,20 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "AS5600_Encoder"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "E"
-			(at 0 8.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AS5600"
-			(at 0 0 90)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -10.16 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -10.16 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AS5600_Encoder_0_0"
-			(pin power_in line
-				(at -11.43 2.54 0)
-				(length 3.81)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -11.43 0 0)
-				(length 3.81)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -11.43 -2.54 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 3.81 180)
-				(length 3.81)
-				(name "DIR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 1.27 180)
-				(length 3.81)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 -1.27 180)
-				(length 3.81)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -3.81 180)
-				(length 3.81)
-				(name "GPO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "AS5600_Encoder_1_1"
-			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-	)
-	(symbol "BMX160_9axis"
+	(symbol "BMX160_IMU"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 0 11.43 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BMX160_9axis"
-			(at 0 8.89 0)
+		(property "Value" "BMX160"
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://robu.in/product/dfrobot-fermion-bmx160-9-axis-sensor-breakout/"
-			(at 1.27 -15.24 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,9 +49,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "BMX160_9axis_0_0"
+		(symbol "BMX160_IMU_0_0"
 			(circle
-				(center 0 -5.08)
+				(center 3.81 -6.35)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -254,27 +61,11 @@
 					(type outline)
 				)
 			)
-			(text "X"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Y"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 		)
-		(symbol "BMX160_9axis_0_1"
+		(symbol "BMX160_IMU_0_1"
 			(polyline
 				(pts
-					(xy 0 -3.048) (xy -0.508 -3.556)
+					(xy 3.81 -4.318) (xy 3.302 -4.826)
 				)
 				(stroke
 					(width 0.3)
@@ -286,7 +77,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.048) (xy 0.508 -3.556)
+					(xy 3.81 -4.318) (xy 4.318 -4.826)
 				)
 				(stroke
 					(width 0.3)
@@ -298,7 +89,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 -5.08) (xy 1.524 -5.588)
+					(xy 5.842 -6.35) (xy 5.334 -6.858)
 				)
 				(stroke
 					(width 0.3)
@@ -310,7 +101,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 -5.08) (xy 1.524 -4.572)
+					(xy 5.842 -6.35) (xy 5.334 -5.842)
 				)
 				(stroke
 					(width 0.3)
@@ -322,7 +113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.048) (xy 0 -5.08) (xy 2.032 -5.08)
+					(xy 3.81 -4.318) (xy 3.81 -6.35) (xy 5.842 -6.35)
 				)
 				(stroke
 					(width 0.3)
@@ -333,10 +124,10 @@
 				)
 			)
 		)
-		(symbol "BMX160_9axis_1_1"
+		(symbol "BMX160_IMU_1_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -346,7 +137,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 3.81 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -364,7 +155,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 1.27 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -382,7 +173,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -1.27 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -400,7 +191,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -3.81 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -418,7 +209,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "INT2"
 					(effects
@@ -436,7 +227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "INT1"
 					(effects
@@ -454,7 +245,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "CSB"
 					(effects
@@ -473,7 +264,7 @@
 			)
 		)
 	)
-	(symbol "INA219_Current_Voltage_Sensor"
+	(symbol "INA219_Power_Sensor"
 		(pin_names
 			(offset 1.016)
 		)
@@ -525,7 +316,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "INA219_Current_Voltage_Sensor_1_1"
+		(symbol "INA219_Power_Sensor_1_1"
 			(rectangle
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
@@ -679,409 +470,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-	)
-	(symbol "Maker_Line_Sensor_05"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Maker_Line_Sensor_05"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -5.08 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -5.08 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Maker_Line_Sensor_05_0_0"
-			(pin power_in line
-				(at -7.62 3.81 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -7.62 -1.27 0)
-				(length 2.54)
-				(name "AN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -7.62 -3.81 0)
-				(length 2.54)
-				(name "CAL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(name "D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "D3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 5.08 180)
-				(length 2.54)
-				(name "D5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Maker_Line_Sensor_05_1_0"
-			(pin power_in line
-				(at -7.62 1.27 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Maker_Line_Sensor_05_1_1"
-			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-	)
-	(symbol "OE-28_Encoder"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "E"
-			(at 0 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OE-28"
-			(at 1.905 0 90)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -5.715 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -5.715 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -5.715 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "OE-28_Encoder_0_0"
-			(pin output line
-				(at -8.255 6.35 0)
-				(length 3.81)
-				(name "M-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -8.255 3.81 0)
-				(length 3.81)
-				(name "M+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.255 1.27 0)
-				(length 3.81)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.255 -1.27 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.255 -3.81 0)
-				(length 3.81)
-				(name "CHA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.255 -6.35 0)
-				(length 3.81)
-				(name "CHB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "OE-28_Encoder_0_1"
-			(rectangle
-				(start -4.445 8.89)
-				(end 3.81 -8.89)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)

@@ -23,7 +23,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 2.032 2.032)
 				)
 			)
 		)
@@ -47,15 +47,6 @@
 		)
 		(property "Description" ""
 			(at 1.27 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://robu.in/product/original-arduino-giga-r1-wifi/"
-			(at 0.508 -101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2636,7 @@
 			)
 		)
 	)
-	(symbol "Arduino_Uno_R4_WiFi"
+	(symbol "Arduino_Uno-R4-WiFi"
 		(pin_names
 			(offset 1.016)
 		)
@@ -2665,13 +2656,13 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.524 1.524)
-					(bold yes)
+					(size 1.778 1.778)
+					(thickness 0.2223)
 				)
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield"
-			(at 0 -53.34 0)
+			(at 0 -36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2680,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/uno-r4-wifi"
-			(at 0 -49.53 0)
+			(at 0 -34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2688,8 +2679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shield for Arduino Uno R4 WiFi"
-			(at -69.85 6.35 0)
+		(property "Description" "Arduino Uno R4 WiFi"
+			(at 0 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2706,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Arduino_Uno_R4_WiFi_0_0"
+		(symbol "Arduino_Uno-R4-WiFi_0_0"
 			(polyline
 				(pts
 					(xy -7.62 12.7) (xy -3.81 12.7) (xy -3.81 10.16)
@@ -2865,7 +2856,7 @@
 				)
 			)
 		)
-		(symbol "Arduino_Uno_R4_WiFi_1_0"
+		(symbol "Arduino_Uno-R4-WiFi_1_0"
 			(polyline
 				(pts
 					(xy -10.16 -12.7) (xy -3.81 -12.7) (xy -3.81 -11.43)
@@ -2899,7 +2890,7 @@
 				)
 			)
 		)
-		(symbol "Arduino_Uno_R4_WiFi_1_1"
+		(symbol "Arduino_Uno-R4-WiFi_1_1"
 			(rectangle
 				(start -16.51 27.94)
 				(end 16.51 -27.94)
@@ -3623,7 +3614,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -29.21 0)
+			(at 0 30.48 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -3637,11 +3628,11 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 2.032 2.032)
 				)
 			)
 		)
-		(property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB"
+		(property "Footprint" ""
 			(at 0 -33.02 0)
 			(effects
 				(font
@@ -3652,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
-			(at -52.07 -2.54 0)
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

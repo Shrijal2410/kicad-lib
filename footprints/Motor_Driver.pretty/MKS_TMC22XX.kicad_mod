@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "MKS_TMC22XX"
-		(at 0 13.97 180)
+		(at 0 12.065 180)
 		(layer "F.Fab")
 		(uuid "ded1c591-c3b4-48c2-8c4d-755269b3bf4c")
 		(effects
@@ -65,125 +65,27 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -7.62 -10.16)
-		(end 7.62 -10.16)
+	(fp_rect
+		(start -7.874 -10.414)
+		(end 7.874 10.414)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "c2326b47-2775-4321-9320-b2d8eac6ffba")
+		(uuid "08f51d91-2e39-40cf-9cf9-be32402bdcc5")
 	)
-	(fp_line
-		(start -7.62 10.16)
-		(end -7.62 -10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f8ba7904-0e4e-4324-b765-13890b987bb5")
-	)
-	(fp_line
-		(start 7.62 -10.16)
-		(end 7.62 10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "39cfc502-9f7a-4377-b721-725deba22653")
-	)
-	(fp_line
-		(start 7.62 10.16)
-		(end -7.62 10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "967a6a74-0e2a-41ee-b990-0050520deb79")
-	)
-	(fp_line
-		(start -7.87 -10.41)
-		(end 7.87 -10.41)
+	(fp_rect
+		(start -8.001 -10.541)
+		(end 8.001 10.541)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "88ccd3ed-ca0a-41a5-a68c-aea361599336")
-	)
-	(fp_line
-		(start -7.87 10.41)
-		(end -7.87 -10.41)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e60a147a-7bc1-4194-b262-d2009885bc3b")
-	)
-	(fp_line
-		(start 7.87 -10.41)
-		(end 7.87 10.41)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e24cd3c4-295a-4033-a496-2980f033e548")
-	)
-	(fp_line
-		(start 7.87 10.41)
-		(end -7.87 10.41)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "791cfaa2-4255-4815-9a26-2f4e6c0aefd2")
-	)
-	(fp_line
-		(start -7.62 -10.16)
-		(end 7.62 -10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "40e01eba-fe99-4b3b-99b4-35ca644f7e27")
-	)
-	(fp_line
-		(start -7.62 10.16)
-		(end -7.62 -10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "46ee599c-d688-482c-8474-cb4d78dfe392")
-	)
-	(fp_line
-		(start 7.62 -10.16)
-		(end 7.62 10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "898c2a00-61ea-46e3-8e8d-bdba9a23e50e")
-	)
-	(fp_line
-		(start 7.62 10.16)
-		(end -7.62 10.16)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d35313a2-bb2f-4c67-bfd2-ae4feb049e07")
+		(uuid "ef3cff0e-53ef-4c74-b1e0-84b3fb88056b")
 	)
 	(fp_circle
 		(center 8.2 8.89)
@@ -358,7 +260,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "418cd125-c03e-4325-97fb-976c11993d44")
 	)
-	(model "${KICAD_LIB}/3dmodels/Motor_Driver.3dshapes/BTT_TMC2209.step"
+	(model "${KICAD_USER_LIB}/3dmodels/Motor_Driver.3dshapes/BTT_TMC2209.step"
 		(offset
 			(xyz -0.48 5.2 12.5)
 		)
